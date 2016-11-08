@@ -1,2 +1,2 @@
 paramiko==1.17.2
-ansible
+ansible==2.1.2.0
