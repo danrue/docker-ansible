@@ -6,4 +6,5 @@ RUN virtualenv /virtualenv
 ADD requirements.txt /app/requirements.txt
 RUN /virtualenv/bin/pip install -r /app/requirements.txt
 
+ENV PATH="/virtualenv/bin:$PATH"
 WORKDIR /virtualenv/bin
